@@ -11,7 +11,7 @@
     "description": "A General purpose PHP utility library.",
     "type": "Project",
     "require": {
-        
+        "php": ">=7.0"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Eterlinden\\": "src/"
+            "Eterlinden\\Utility\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eterlinden\\Tests\\": "tests/"
+            "Eterlinden\\Tests\\Utility\\": "tests/"
         }
     }
 }
