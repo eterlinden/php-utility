@@ -1,0 +1,34 @@
+{
+    "name": "eterlinden/php-utility",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ezra Ter Linden",
+            "email": "ezra.ter.linden@web.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "description": "A General purpose PHP utility library.",
+    "type": "Project",
+    "require": {
+        
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "^5.7",
+        "phpunit/phpunit-mock-objects": "^3.4",
+        "phpunit/phpunit-selenium": "^3.0",
+        "phpunit/php-code-coverage": "^4.0",
+        "sami/sami": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eterlinden\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eterlinden\\Tests\\": "tests/"
+        }
+    }
+}
